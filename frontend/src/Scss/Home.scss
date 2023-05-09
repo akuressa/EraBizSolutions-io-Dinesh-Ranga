@@ -1,0 +1,66 @@
+.container {
+    margin: 0px 100px;
+}
+.homePage {
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+}
+.label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.ant-input-group-wrapper {
+    width: 100%;
+}
+.dropdown-btn {
+ width: 100%;
+ border-radius: 0;
+}
+
+.ant-card-meta-detail {
+    text-align: center;
+}
+
+.ant-card .ant-card-meta-detail {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.ant-card .ant-card-meta-detail >div:not(:last-child) {
+    margin-bottom: unset;
+}
+.ant-card:hover .ant-card-meta-title {
+    color:white;
+}
+.ant-card:hover .ant-card-meta-description {
+    color:grey;
+}
+.custom {
+    border-radius: unset;
+    color:white;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.card-right .card-item {
+    margin-top: 15px;
+}
+.card-right .card-item >p {
+    margin: 0;
+    padding: 0;
+}
+
+.chamber {
+    font-size: 10px;
+}
+.ant-card-bordered {
+    border: 1px solid grey;
+    border-radius: 0;
+}
+@media (max-width: 725px) {
+    .ant-col-offset-2 {
+        margin-inline-start: 0%;
+        margin-top: 25px;
+    }
+}
+.rightcol{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,33 @@
+
+  .ant-row {
+    display: unset;
+    flex-flow: row wrap;
+  }
+
+.ant-form-item .ant-form-item-label >label {
+    color: unset;
+    font-weight: bold;
+}
+
+.ant-form-item .ant-input {
+    border-radius: unset;
+    border-color: rgba(34, 34, 34, 0.932);
+}
+.custom-danger {
+    background-color: rgb(255, 81, 0);
+    border-radius: unset;
+    color:white;
+}
+
+.radio-item {
+    width: 30%;
+}
+
+.ant-form-item-control-input-content {
+    color:rgba(109, 106, 106, 0.932);
+}
+
+.ant-form-item-control-input-content .radio {
+    color:rgba(122, 117, 117, 0.938);
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+.content {
+    margin-bottom: 100px;
+}
+
+form .ant-input {
+    border-radius: 0;
+}
+.ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button {
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+    background-color: black;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.specialityForm .ant-input-group-addon {
+    display: none;
+}
+.specialityForm .ant-input-group-wrapper {
+    width: 100%;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.ant-checkbox-wrapper+.ant-checkbox-wrapper {
+    margin-inline-start: 0px;
+}
+.ant-col-8 {
+    margin-bottom: 100px;
+}

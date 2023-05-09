@@ -1,0 +1,72 @@
+
+.ant-layout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    line-height: unset;
+    height: 84px;
+}
+.ant-layout-header .ant-menu-item {
+    font-weight: bold;
+    color: grey;
+    line-height: 44px;
+}
+// .ant-layout-header .ant-menu-item-active {
+//     border-bottom-color: red;
+// }
+.ant-layout-header .ant-menu {
+    line-height: 44px;
+}
+.ant-layout-header .ant-menu-overflow .ant-menu-item-selected {
+    color: black;
+}
+
+.ant-layout-header .ant-menu-overflow .ant-menu-item-selected .ant-menu-title-content{
+    border-bottom-color: blue;
+}
+.right-arrow {
+    margin-left: 15px;
+    background-color: rgb(97, 95, 95);
+    border-radius: 50%;
+    width: 20px;
+}
+.contact-btn {
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    height:45px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    float: right;
+    // margin-left: 80px;
+}
+.menu{
+    width: 50%;
+    line-height: 84px;
+}
+.menu >ul{
+    width: 70%;
+    border-bottom: unset;
+    margin-top: 10px;
+}
+.logo >img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+}
+.logo .imageText {
+    margin: 65px;
+}
+
+.ant-layout-header {
+    padding-inline: unset;
+}
+/////////////////////////////////////
+.headers, .headers >Text{
+    text-align: center;
+    color: grey;
+}
+
+
